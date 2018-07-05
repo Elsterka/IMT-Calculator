@@ -16,19 +16,19 @@ $v = $_REQUEST ['v'];
 $r = $_REQUEST ['r'];
 
 interface IMT {
-	public function Imtcalc();//содаем метод для внедрения в классы
+	public function Imtcalc();
 }
 
 class Ketle implements IMT {
 	public $hight, $weight;
-//создаем конструктор для задания величин	
+	
 	public function __construct($w, $h){
 		$this->weight = $w;
                 $this->hight = $h;		
 	}
-//подключаем метод с кодом-функционалом	
+
 	public function Imtcalc() {
-//прописываем код функционала
+
 		$v = $this->weight;
                 $r = $this->hight * $this->hight;
                 return  @round (($v / $r) * 10000, 2);
@@ -79,14 +79,14 @@ $number = $kk;
 }
 class Noorden implements IMT {
 	public $hight, $weight;
-//создаем конструктор для задания величин	
+	
 	public function __construct($h){
 		//$this->weight = $w;
                 $this->hight = $h;		
 	}
-//подключаем метод с кодом-функционалом	
+
 	public function Imtcalc() {
-//прописываем код функционала
+
 		//$v = $this->weight;
                 $r = $this->hight;
                 return ($r*420)/1000;
