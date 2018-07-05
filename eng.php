@@ -94,7 +94,7 @@ class Noorden implements IMT {
 }
 $n = new Noorden($r);
 $nn = $n->Imtcalc();
-echo  "<p>Your healthy weight under Noorden index: " .$nn." kg </p>";
+echo  "<p>Your healthy weight under Noorden index is: " .$nn." kg </p>";
 }
 else {
     echo "<h3>Enter your metric measurements for calculation!</h3>";
