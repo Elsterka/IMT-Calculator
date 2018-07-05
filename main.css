@@ -1,0 +1,68 @@
+    .gr {
+    height: 1000px;
+    background: linear-gradient(white, #7FFF00);
+    }  
+    .gr0 {
+    height: 1000px;
+    background: linear-gradient(white, #527a7a);
+    } 
+    .gr1 {
+    height: 1000px;
+    background: linear-gradient(white, #00bfff);
+    } 
+    .gr2 {
+    height: 1000px;
+    background: linear-gradient(white, #33cc33);
+    } 
+    .gr3 {
+    height: 1000px;
+    background: linear-gradient(white, #e6e600);
+    } 
+    
+    .gr4 {
+    height: 1000px;
+    background: linear-gradient(white, #ff8000);
+    } 
+    .gr5 {
+    height: 1000px;
+    background: linear-gradient(white, #ff1a1a);
+    } 
+    .gr6 {
+    height: 1000px;
+    background: linear-gradient(white, #660066);
+    } 
+    
+    h1 {
+    font-family: Times New Roman; /* Гарнитура текста */ 
+    font-size: 25; /* Размер шрифта  */ 
+    font-style: italic;
+    color:#006400;
+   } 
+    h2 {
+    font-family: Times New Roman; /* Гарнитура текста */ 
+    font-size: 20; /* Размер шрифта в процентах */ 
+    font-style: bold;
+    color:#556B2F;
+   } 
+   
+    h3 {
+    font-family: Verdana; /* Гарнитура текста */ 
+    font-size: 20; /* Размер шрифта в процентах */ 
+    font-style: italic;
+    color:#C71585;
+   } 
+   
+    h4 {
+    font-family: Times New Roman; /* Гарнитура текста */ 
+    font-size: 16; /* Размер шрифта в процентах */ 
+    font-style: bold;
+    text-decoration: underline;
+    color: #ff6600;
+   } 
+    p {
+    font-family: Verdana; /* Гарнитура текста */ 
+    font-size: 18; /* Размер шрифта в процентах */ 
+    font-style: italic;
+    font-weight: bold; 
+    color: #002db3;
+   } 
